@@ -34,8 +34,8 @@ e-shop-brasil/
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seuusuario/e-shop-brasil.git
-cd e-shop-brasil
+git clone https://github.com/pedro-h7/e-shop-brasil-portfolio.git
+cd e-shop-brasil-portfolio
 ```
 
 ### 2. Suba os containers com Docker Compose
@@ -47,7 +47,7 @@ docker-compose up --build
 ### 3. Acesse o aplicativo
 
 Abra seu navegador e vá para:  
-[http://localhost:8501](http://localhost:8501)
+[http://localhost:8502](http://localhost:8502)
 
 ### 4. Inserir dados massivos (opcional)
 
@@ -66,8 +66,8 @@ python data/seed_data.py
 
 ## 📌 Observações
 
-- O banco **MongoDB** está acessível localmente via porta `27017`  
-- A interface **Streamlit** roda em `http://localhost:8501`  
+- O banco **MongoDB** está acessível localmente via porta `27018`  
+- A interface **Streamlit** roda em `http://localhost:8502`  
 - O script `seed_data.py` usa a biblioteca `Faker` para gerar 1 milhão de registros fictícios
 
 > Projeto acadêmico - Curso de Gestão de Tecnologia da Informação 💻🎓
