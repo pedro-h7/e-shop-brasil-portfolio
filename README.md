@@ -22,8 +22,7 @@ e-shop-brasil/
 │   └── utils.py
 ├── data/                # Script para inserção de dados
 │   └── seed_data.py
-├── docker/              # Dockerfile da aplicação
-│   └── Dockerfile
+├── Dockerfile           # Dockerfile da aplicação
 ├── docker-compose.yml   # Orquestração de containers
 ├── requirements.txt     # Dependências
 └── README.md            # Documentação
